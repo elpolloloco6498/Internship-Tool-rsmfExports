@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: #F8FBFF !important;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    color: #003B7D;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.create-export {
+    padding: 20px 0px;
+}
+
+header .logo-image {
+    width: 150px;
+    height: 47.43%;
+    float: left;
+}
+
+.main-logo {
+    padding: 30px 0 0;
+    float: left!important;
+}
+
+header .logo-link {
+    display: block;
+    width: 100%;
+    transition: all .3s ease 0s;
+}
+
+header .logo-link .logo-site-name {
+    border-left: 1px solid #d3d3d3;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 0 20px;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+header {
+    height: 130px;
+    background-color: #041b3a;
+}
+
+.title-tag {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.title-tag>span {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #003b7d;
+    line-height: 50px;
+}
+
+.container-custom {
+    margin: 0px 15%;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.ui-btn {
+    border-radius: 60px;
+    padding: 15px;
+    font-size: 13px;
+    background-color: #fff;
+    color: #003b7d;
+    cursor: pointer!important;
+    border: 1px solid #dcdcdc;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 4em;
+    transition-duration: 0.5s;
+}
+
+.ui-btn:hover, .ui-btn-circle:hover {
+    background-color: #0047ab;
+    color: white;
+}
+
+.ui-btn-circle {
+    display: inline-block;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    background-color: #fff;
+    color: #003b7d;
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 4em;
+    transition-duration: 0.5s;
+}
+
+.ui-btn-danger{
+    border-radius: 60px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: #fff;
+    color: #003b7d;
+    cursor: pointer!important;
+    border: 1px solid #dcdcdc;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 4em;
+}
+
+.ui-btn-danger:hover {
+    background-color: red;
+    color: white!important;
+}
+
+.date {
+    color: white;
+    font-weight: bold;
+    background-color: #003b7d;
+    width: 300px;
+}
+
+.download-area {
+    background-color: #f7f5f3;
+}
+
+.doc {
+    display: block;
+    border: 1px solid #dcdcdc;
+}
+
+.doc-info {
+    color: #003b7d;
+    width: 300px;
+}
+
+.doc-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.doc div{
+    display: inline-block;
+    padding: 5px 40px;
+}
+
+.random_number{
+    margin: 50px;
+    font-size: 150px;
+    text-align: center;
+}
+button{
+    display: block;
+    margin: 0 auto;
+}
+
+.bdf-logo{
+    margin: 40px;
+    position: relative;
+}
+
+.create-btn {
+    margin: 10px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.spaced {
+    margin-bottom: 10px;
+}
+
+.query-form {
+    display: none;
+}
+
+.spinner-download {
+    display: inline-block;
+}
+
+footer {
+    background-color: #003b7d;
+    color: white;
+    position:fixed;
+    left: 0;
+    bottom:0;
+    height: 50px;
+    width:100%;
+
+    font-size: 14px;
+}
+
+.footer-section {
+    padding: 12px 0px;
+}
+
+footer a{
+    color: white;
+}

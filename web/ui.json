@@ -1,0 +1,20 @@
+{
+  "screens": {
+    "Ecran Assurance": {
+      "export-fields": [
+        "Assurance",
+        "Dénomination",
+        "Dérogation",
+        "Données CV",
+        "Obligations Déclaratives"
+      ]
+    },
+    "Ecran Agent financier": {
+      "export-fields": [
+        "Agent financier",
+        "Obligations déclaratives",
+        "Reporting SSM"
+      ]
+    }
+}
+}

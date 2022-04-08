@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Eel Example</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<!--auto indent : ctrl+a => ctrl+alt+i-->
+
+<body>
+<header>
+	<div class="container">
+		<div class="main-logo">
+			<h1>
+				<a href="https://bin.banque-france.fr/" class="logo-link" rel="home">
+					<img class="logo-image" src="./img/logo-bf.svg" alt="">
+					<span class="logo-site-name">RSMF Exports</span>
+				</a>
+			</h1>
+		</div>
+	</div>
+</header>
+
+<div class="container-custom">
+	<div class="form-group">
+		<div class="text-center create-export">
+			<label for="btnAddQuery">Create an export query</label>
+			<a class="btn-add-query ui-btn-circle"><b>+</b></a>
+		</div>
+	</div>
+
+	<form class="query-form">
+		<h2 class="title-tag">
+			<span>QUERY <strong>FORM</strong></span>
+		</h2>
+		<div class="form-group queries spaced">
+			<label for="queryName">Select a query</label>
+			<select class="select-query form-select" aria-label="Default select example">
+				<option>Select One …</option>
+				<option value="1">Ecran Assurance</option>
+				<option value="2">Ecran Agent financier</option>
+				<option value="3">Ecran test</option>
+			</select>
+		</div>
+
+		<div class="form-group spaced">
+			<label for="querySearchBy">Select export fields</label>
+			<select class="select-searchBy form-select" aria-label="Default select example">
+				<option>Select ID</option>
+				<option value="1">SIREN</option>
+				<option value="2">CIB</option>
+				<option value="3">Regeli</option>
+			</select>
+		</div>
+
+		<div class="form-group spaced">
+			<label for="querySearchIds">Search IDs</label>
+			<div class="alert alert-info" role="alert">
+				Separate values with ","
+			</div>
+			<input type="text" class="querySearchIds form-control" id="usr">
+		</div>
+
+		<div class="checkboxs-exports form-group">
+			<label for="queryExports"><b>Export fields</b></label>
+			<br>
+			<div class="checkboxs-content"></div>
+		</div>
+
+	</form>
+
+	<div class="text-center create-btn">
+		<a class="btn-create-query ui-btn">CREATE</a>
+	</div>
+
+	<h2 class="title-tag">
+		<span>QUERY <strong>LIST</strong></span>
+	</h2>
+	<table class="table table-striped">
+		<thead>
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">Query name</th>
+			<th scope="col">Search by</th>
+			<th scope="col">Search IDs</th>
+			<th scope="col">export fields</th>
+			<th scope="col"></th>
+		</tr>
+		</thead>
+		<tbody class="query-table"></tbody>
+	</table>
+
+	<div class="text-center">
+		<a class="ui-btn btn-execute-query">EXECUTE ALL QUERIES</a>
+	</div>
+
+	<h2 class="title-tag">
+		<span>DOWNLOADS</span>
+		<div class="spinner-download"></div>
+	</h2>
+	<div class="text-center download-area">
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="footer-section">
+				<span>© La Banque de France</span>
+				<span>|</span>
+				<a href="https://www.banque-france.fr/infos-legales" target="_blank"><span class="menu-link-text">Infos légales</span></a>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script type="text/javascript" src="../eel.js"></script>
+<script type="text/javascript" src="ui.json"></script>
+<script src="./script.js"></script>
+</body>
+</html>

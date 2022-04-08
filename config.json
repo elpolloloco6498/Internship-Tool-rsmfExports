@@ -1,0 +1,12 @@
+{
+  "selenium": {
+    "geckodriver": "C:/Produits/GeckoDriver/geckodriver.exe",
+    "report": "readme.txt"
+  },
+  "app": {
+    "name": "rsmf",
+    "url": "http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view/?wstate=(%27$ws%27:DASHBOARD)",
+    "version": "1.0",
+    "username": "ishaml"
+  }
+}

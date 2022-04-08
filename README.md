@@ -16,12 +16,12 @@ Si ce n'est pas deja fait un faut installer le navigateur Firefox sur votre ordi
 Depuis le centre logiciel installer Python 3.9
 
 ### Installation des modules Python requis
-Tapez dans le terminal:
-pip3 install selenium, keyring, eel
-Puis encore dans le terminal, nous allons configurer votre mot de passe RSMF:
-Tapez
-python3
-keyring.set_password("darwin", "username", "password")
+Tapez dans le terminal:\n
+pip3 install selenium, keyring, eel\n
+Puis encore dans le terminal, nous allons configurer votre mot de passe RSMF:\n
+Tapez\n
+python3\n
+keyring.set_password("darwin", "username", "password")\n
 Votre mot de passe a été enregistré par le système.
 L'outil est prêt a être utilisé.
 
@@ -30,5 +30,5 @@ Il faut maintenant configurer l'outil.
 Dans le fichier config.json vous trouverez toutes informations qu'il faut renseigner. En particulier le nom d'utilisateur RSMF et le lien de l'éxecutable Geckodriver.
 
 ## Lancement
-Dans un terminal dans le repertoire de l'outil, tapez:
+Dans un terminal dans le repertoire de l'outil, tapez:\n
 python3 main.py

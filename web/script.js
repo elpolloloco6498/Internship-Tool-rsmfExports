@@ -166,7 +166,7 @@ btnExecQueries.addEventListener("click", ()=>{
 
     configJson = JSON.stringify(queriesData, null, 4)
     //console.log(configJson)
-    eel.exportDocuments(configJson)
+    eel.downloadData(configJson)
     document.querySelector(".spinner-download").innerHTML = "<div class='spinner-border text-primary'></div>"
 })
 

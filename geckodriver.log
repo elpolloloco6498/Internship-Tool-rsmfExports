@@ -1834,3 +1834,1823 @@ unwatchForTargets()@TargetList.jsm:37
 destructor()@TargetList.jsm:109
 stop()@CDP.jsm:104
 close()@RemoteAgent.jsm:138
+1649667784228	geckodriver	INFO	Listening on 127.0.0.1:63507
+1649667784467	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63508" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile9pkSBl"
+1649667786978	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile9pkSBl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63508/devtools/browser/8b39fb66-f168-40a4-9643-75d6e5c7c9bb
+1649667790962	Marionette	INFO	Listening on port 63511
+1649667791463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 10512, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649667830174	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649667920032	Marionette	INFO	Stopped listening on port 63511
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649667920339	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649668062000	geckodriver	INFO	Listening on 127.0.0.1:63593
+1649668062286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63594" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilepPfZfJ"
+1649668063767	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilepPfZfJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63594/devtools/browser/c7d4d17b-5a68-43fd-8a64-5e8ba7378ec9
+1649668067480	Marionette	INFO	Listening on port 63597
+1649668067635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649668106368	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649668173144	Marionette	INFO	Stopped listening on port 63597
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390112,name=PContent::Msg_AccumulateChildHistograms) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390117,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649668173897	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649668804926	geckodriver	INFO	Listening on 127.0.0.1:64178
+1649668805222	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64179" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile5qLpPg"
+1649668806678	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile5qLpPg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64179/devtools/browser/206eff22-36e8-4181-b45d-b50c6fa19d98
+1649668810301	Marionette	INFO	Listening on port 64182
+1649668810561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649668849167	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649668921987	Marionette	INFO	Stopped listening on port 64182
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649668922767	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649668965684	geckodriver	INFO	Listening on 127.0.0.1:64361
+1649668965912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64362" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilexZzjsI"
+1649668967308	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilexZzjsI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64362/devtools/browser/201b303e-5129-4500-80f5-72850c103367
+1649668970720	Marionette	INFO	Listening on port 64365
+1649668970785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649669009497	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649669077806	Marionette	INFO	Stopped listening on port 64365
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649669078615	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649669257783	geckodriver	INFO	Listening on 127.0.0.1:64601
+1649669258042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64602" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile1iaftm"
+1649669259448	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile1iaftm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64602/devtools/browser/9674ce97-1771-4e92-8590-9fcd3b9cdfb7
+1649669263260	Marionette	INFO	Listening on port 64605
+1649669263391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649669301908	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649669419118	Marionette	INFO	Stopped listening on port 64605
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649669419889	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649669423307	geckodriver	INFO	Listening on 127.0.0.1:64735
+1649669423584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64736" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileFbNoSZ"
+1649669425070	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileFbNoSZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64736/devtools/browser/9bb042cf-912e-4a30-862d-00d1d6787244
+1649669428805	Marionette	INFO	Listening on port 64739
+1649669428959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649669467654	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649669519814	Marionette	INFO	Stopped listening on port 64739
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649669520665	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649669537908	geckodriver	INFO	Listening on 127.0.0.1:64877
+1649669538186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64878" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileJyFodK"
+1649669539613	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileJyFodK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64878/devtools/browser/5a1a59e5-55f5-4654-8c97-161329e6eccf
+1649669543429	Marionette	INFO	Listening on port 64882
+1649669543558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649669582266	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649669622386	Marionette	INFO	Stopped listening on port 64882
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649669623025	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649669901452	geckodriver	INFO	Listening on 127.0.0.1:65250
+1649669901743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65251" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilePaDPw3"
+1649669903199	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilePaDPw3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65251/devtools/browser/900f5418-0cfa-482d-985d-1c3547ea8138
+1649669907091	Marionette	INFO	Listening on port 65254
+1649669907615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 4596, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649669946141	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649669983106	Marionette	INFO	Stopped listening on port 65254
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649669983741	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649670068715	geckodriver	INFO	Listening on 127.0.0.1:65390
+1649670069019	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65391" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofiledOI3FH"
+1649670070433	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofiledOI3FH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65391/devtools/browser/4f98edba-2907-4212-84db-6ad391bfb16a
+1649670074230	Marionette	INFO	Listening on port 65394
+1649670074390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649670112923	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649671040185	Marionette	INFO	Stopped listening on port 65394
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649671040476	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649670738591	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649671028684	Marionette	INFO	Stopped listening on port 49176
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649671028928	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649671063005	geckodriver	INFO	Listening on 127.0.0.1:49305
+1649671063295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49306" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile1bWRWp"
+1649671064680	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile1bWRWp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49306/devtools/browser/6a06d3fd-6576-47d9-a6d7-7f2ba01b956d
+1649671068467	Marionette	INFO	Listening on port 49309
+1649671068639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649671107240	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649677939217	Marionette	INFO	Stopped listening on port 49309
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649677939651	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+ix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649677522913	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649677938329	Marionette	INFO	Stopped listening on port 50030
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callba1649677938572	Marionet
+###!!! [Parent][RunMessageconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilel4So63\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50472/devtools/browser/c96e0e26-e52d-4975-a176-3da3f44f5371
+1649677943392	Marionette	INFO	Listening on port 50475
+1649677943445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649677982123	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649678455115	Marionette	INFO	Stopped listening on port 50475
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649678455514	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649678488370	geckodriver	INFO	Listening on 127.0.0.1:50623
+1649678488645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50624" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilemLMYEQ"
+1649678490089	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilemLMYEQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50624/devtools/browser/f62ef1a1-cd17-46de-b079-1cbccaafdf10
+1649678493495	Marionette	INFO	Listening on port 50627
+1649678493993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+1649678556789	Marionette	INFO	Stopped listening on port 50627
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649678557355	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649678559345	geckodriver	INFO	Listening on 127.0.0.1:50667
+1649678559616	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50668" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile79r1Rn"
+1649678561031	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile79r1Rn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50668/devtools/browser/39518790-bc7a-4b1d-abc1-5b13e1e11119
+1649678565284	Marionette	INFO	Listening on port 50671
+1649678565492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+1649678634169	Marionette	INFO	Stopped listening on port 50671
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649678634765	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649678650513	geckodriver	INFO	Listening on 127.0.0.1:51021
+1649678650791	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51022" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileYdt96X"
+1649678652192	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileYdt96X\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51022/devtools/browser/58ccc3a4-9013-4c6e-b992-16e130814456
+1649678655738	Marionette	INFO	Listening on port 51025
+1649678656150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900D3,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+1649678747466	Marionette	INFO	Stopped listening on port 51025
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649678748014	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649678752883	geckodriver	INFO	Listening on 127.0.0.1:51103
+1649678753156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51104" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofiledsi8ce"
+1649678754771	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofiledsi8ce\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51104/devtools/browser/6cc1ee00-457c-4e6f-816a-53c15f8e22d1
+1649678758463	Marionette	INFO	Listening on port 51108
+1649678758996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+1649679096406	Marionette	INFO	Stopped listening on port 51108
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649679096724	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649679112511	geckodriver	INFO	Listening on 127.0.0.1:51220
+1649679112765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51221" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileKgiljp"
+1649679114191	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileKgiljp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51221/devtools/browser/a6351ca2-7f77-4fdc-92f8-785dc6bba816
+1649679117993	Marionette	INFO	Listening on port 51224
+1649679118151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649679156933	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649680269143	Marionette	INFO	Stopped listening on port 51224
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649680269423	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649680121365	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680161653	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649680163852	Marionette	INFO	Stopped listening on port 51637
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649680164400	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649680236517	geckodriver	INFO	Listening on 127.0.0.1:51740
+1649680236798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51741" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile80QjnN"
+1649680238103	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofile80QjnN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51741/devtools/browser/8a52959b-7d34-4662-ae4c-8060f0a9f9d3
+1649680241660	Marionette	INFO	Listening on port 51744
+1649680242155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649680280831	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680313769	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649680341414	Marionette	INFO	Stopped listening on port 51744
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649680341886	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649680550492	geckodriver	INFO	Listening on 127.0.0.1:51861
+1649680550769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51862" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilefG78VP"
+1649680552242	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilefG78VP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51862/devtools/browser/109c2915-9a05-4d84-9135-4be492f043d6
+1649680556390	Marionette	INFO	Listening on port 51865
+1649680556633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 15812, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649680595423	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680624406	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680631440	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680638465	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680645484	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649680674373	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680703322	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680710362	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680717388	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680724431	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649680753298	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680782206	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680789224	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680796263	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680803310	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649680832201	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680861054	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680868043	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680875053	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680882046	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649680926839	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680955720	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680962737	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649680969785	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+console.warn: "Resource  of root-node was not found."
+console.warn: "Resource  of root-node was not found."
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=(%27$ws%27:DATA), line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+1649681373210	Marionette	INFO	Stopped listening on port 51865
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649681373511	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649681426142	geckodriver	INFO	Listening on 127.0.0.1:52058
+1649681426433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52059" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileVbWASj"
+1649681427832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileVbWASj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52059/devtools/browser/6cec88ff-fc64-4d48-a258-acdb4fbdfb4c
+1649681431665	Marionette	INFO	Listening on port 52062
+1649681431816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649681470607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649681499572	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649681534052	Marionette	INFO	Stopped listening on port 52062
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649681534804	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649681581311	geckodriver	INFO	Listening on 127.0.0.1:52152
+1649681581596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52153" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilez9Gukg"
+1649681583009	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilez9Gukg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52153/devtools/browser/710c1a04-bdfe-499a-ba11-11640f5e5c34
+1649681587101	Marionette	INFO	Listening on port 52156
+1649681587466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649681625955	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649681655836	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649681818733	Marionette	INFO	Stopped listening on port 52156
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649681819045	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649682316476	geckodriver	INFO	Listening on 127.0.0.1:52292
+1649682316772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52293" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilertK8LH"
+1649682318325	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilertK8LH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52293/devtools/browser/0fe2e1fc-bc25-4d48-bae8-83318322e507
+1649682322367	Marionette	INFO	Listening on port 52296
+1649682322634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649682361124	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649682391993	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649682466062	Marionette	INFO	Stopped listening on port 52296
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649682466371	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649682524093	geckodriver	INFO	Listening on 127.0.0.1:52427
+1649682524389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52428" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileRSgKRF"
+1649682525888	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileRSgKRF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52428/devtools/browser/7e7c393e-78eb-4e91-b795-13b9b6629de8
+1649682529741	Marionette	INFO	Listening on port 52431
+1649682530263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649682568853	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649682599803	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 79ms)
+1649683632323	Marionette	INFO	Stopped listening on port 52431
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649683632639	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649683656489	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649683912279	Marionette	INFO	Stopped listening on port 52694
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649683912628	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649683948069	geckodriver	INFO	Listening on 127.0.0.1:52811
+1649683948346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52812" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilemcEBgC"
+1649683949750	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilemcEBgC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52812/devtools/browser/68f85c2e-8fb6-4187-ab39-f34cf08f47c6
+1649683953140	Marionette	INFO	Listening on port 52815
+1649683953412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649683991872	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649684188792	Marionette	INFO	Stopped listening on port 52815
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649684189100	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649685773904	geckodriver	INFO	Listening on 127.0.0.1:53032
+1649685774194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53033" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilefnpnIT"
+1649685776249	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilefnpnIT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53033/devtools/browser/b2805498-5307-4854-8ee8-30b6697eba62
+1649685780978	Marionette	INFO	Listening on port 53036
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649685781192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649685819645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649685977730	Marionette	INFO	Stopped listening on port 53036
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649685978020	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649686244443	geckodriver	INFO	Listening on 127.0.0.1:53129
+1649686244722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53130" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilewibL6O"
+1649686246371	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilewibL6O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53130/devtools/browser/8947d262-7bc6-46b3-b7d5-8fe6f43e56c3
+1649686250213	Marionette	INFO	Listening on port 53133
+1649686250615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649686289071	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649686353329	Marionette	INFO	Stopped listening on port 53133
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649686354035	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649686385416	geckodriver	INFO	Listening on 127.0.0.1:53224
+1649686385685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53225" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileJmYtkV"
+1649686387306	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileJmYtkV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53225/devtools/browser/e3511d84-0415-4b67-8e04-408b6822221e
+1649686390998	Marionette	INFO	Listening on port 53228
+1649686391032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649686429650	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649686479757	Marionette	INFO	Stopped listening on port 53228
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649686480332	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649686534294	geckodriver	INFO	Listening on 127.0.0.1:53321
+1649686534585	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53322" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilenif26y"
+1649686536090	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilenif26y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53322/devtools/browser/f53496bf-5374-4e85-99aa-1bb667374d75
+1649686540092	Marionette	INFO	Listening on port 53325
+1649686540480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649686579099	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649686803871	Marionette	INFO	Stopped listening on port 53325
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649686804248	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649686826741	geckodriver	INFO	Listening on 127.0.0.1:53423
+1649686827036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53424" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilefovDei"
+1649686828535	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofilefovDei\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53424/devtools/browser/4a284ffc-1db8-410e-990a-cfe436c0fd69
+1649686832427	Marionette	INFO	Listening on port 53427
+1649686832907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649686871410	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649686960718	Marionette	INFO	Stopped listening on port 53427
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649686961315	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649687570507	geckodriver	INFO	Listening on 127.0.0.1:53715
+1649687570787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53716" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileYsihbf"
+1649687572256	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileYsihbf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53716/devtools/browser/ddfaa25f-4a77-4edb-bee6-53bd8b9e0896
+1649687575992	Marionette	INFO	Listening on port 53719
+1649687576153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649687614820	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649687714780	Marionette	INFO	Stopped listening on port 53719
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649687715172	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649688840989	geckodriver	INFO	Listening on 127.0.0.1:54001
+1649688841286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54002" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileXigxAn"
+1649688842758	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileXigxAn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54002/devtools/browser/5b839735-49b0-436c-b66c-7e12cd9aa889
+1649688846420	Marionette	INFO	Listening on port 54005
+1649688846650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649688885493	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649688958031	Marionette	INFO	Stopped listening on port 54005
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649688958633	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649689014781	geckodriver	INFO	Listening on 127.0.0.1:54100
+1649689015066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54101" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileBjSVLF"
+1649689016439	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileBjSVLF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54101/devtools/browser/4d0d9878-fe29-40aa-96b0-f67cc92f56ca
+1649689020008	Marionette	INFO	Listening on port 54104
+1649689020414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649689058943	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649689159659	Marionette	INFO	Stopped listening on port 54104
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649689159970	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649689690722	geckodriver	INFO	Listening on 127.0.0.1:54278
+1649689691022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54279" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileivDaFy"
+1649689692456	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileivDaFy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54279/devtools/browser/d8c34194-1fe2-45f1-a317-29314bc88d32
+1649689695911	Marionette	INFO	Listening on port 54282
+1649689696416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649689734915	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649689783946	Marionette	INFO	Stopped listening on port 54282
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649689784503	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649689792352	geckodriver	INFO	Listening on 127.0.0.1:54377
+1649689792627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54378" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileNKIf6u"
+1649689794123	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\2\\rust_mozprofileNKIf6u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54378/devtools/browser/c193b982-aa75-40aa-83b1-7bacb890be46
+1649689797831	Marionette	INFO	Listening on port 54381
+1649689798008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649689836574	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649689950946	Marionette	INFO	Stopped listening on port 54381
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649689951223	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649752532915	geckodriver	INFO	Listening on 127.0.0.1:50798
+1649752533187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50799" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileEieUNq"
+1649752535678	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileEieUNq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50799/devtools/browser/00e59259-832e-48fa-ba5a-27091bc5afb7
+1649752540856	Marionette	INFO	Listening on port 50802
+1649752541248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 14528, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649752580044	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649752611697	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view/, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+1649753910028	Marionette	INFO	Stopped listening on port 50802
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649753910446	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+ttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649752691860	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649753904306	geckodriver	INFO	Listening on 127.0.0.1:51751
+1649753904586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51752" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileAnPuhm"
+1649753905896	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileAnPuhm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51752/devtools/browser/8b8345c8-3a62-4ff5-84df-5b2f37ff3421
+1649753911229	Marionette	INFO	Listening on port 51756
+1649753911566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649753950379	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649753981961	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+1649755451931	Marionette	INFO	Stopped listening on port 51756
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649755452377	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649755457477	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649755502437	Marionette	INFO	Stopped listening on port 53145
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649755503067	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649755505381	geckodriver	INFO	Listening on 127.0.0.1:53259
+1649755505676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53260" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileBMIadJ"
+1649755507123	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileBMIadJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53260/devtools/browser/5368f9a3-d410-4914-97ed-c2742c3e70fe
+1649755510998	Marionette	INFO	Listening on port 53263
+1649755511042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649755550060	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649755679998	Marionette	INFO	Stopped listening on port 53263
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649755680466	RemoteAgent	ERconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileJeIilb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53428/devtools/browser/28147a36-ee3b-4e9c-b7e7-b28aa12e548c
+1649755682276	Marionette	INFO	Listening on port 53432
+1649755682340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+1649755726601	Marionette	INFO	Stopped listening on port 53432
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649755727261	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649755730345	geckodriver	INFO	Listening on 127.0.0.1:53499
+1649755730654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53500" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileYoqNxO"
+1649755732100	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileYoqNxO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53500/devtools/browser/f6ee7f87-ed5a-4877-911a-00d8725cbb98
+1649755736135	Marionette	INFO	Listening on port 53503
+1649755736518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649755778492	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649755810083	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649755890248	Marionette	INFO	Stopped listening on port 53503
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649755890840	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649757252096	geckodriver	INFO	Listening on 127.0.0.1:53770
+1649757252366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53771" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofilehrpS5C"
+1649757253889	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofilehrpS5C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53771/devtools/browser/274aaa43-0280-416e-8fb0-a5beee76e29e
+1649757258772	Marionette	INFO	Listening on port 53774
+1649757258857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649757297740	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649757329350	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649757410851	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649757442503	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649757523985	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649757555657	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649757635756	Marionette	INFO	Stopped listening on port 53774
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649757636065	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649757890083	geckodriver	INFO	Listening on 127.0.0.1:53937
+1649757890356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53938" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileWOs14K"
+1649757891840	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofileWOs14K\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53938/devtools/browser/1d6bdcd7-c334-48e7-91c4-7fe446f7197a
+1649757895289	Marionette	INFO	Listening on port 53941
+1649757895708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649757934138	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649757965807	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649758047293	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649758078919	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649758160359	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649758191963	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649758273409	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649758305022	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649758386478	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649758418089	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649758499552	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649758531194	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649758612636	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649758644291	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649758724348	Marionette	INFO	Stopped listening on port 53941
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649758724701	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649763799935	geckodriver	INFO	Listening on 127.0.0.1:54842
+1649763800228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54843" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofilevmJELK"
+1649763801709	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofilevmJELK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54843/devtools/browser/46be3f19-6373-4dee-b8b5-eb02f8e77031
+1649763805620	Marionette	INFO	Listening on port 54846
+1649763806090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Parent 10192, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649763844600	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649763876193	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649763957576	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649763989172	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649764069202	Marionette	INFO	Stopped listening on port 54846
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1649764069475	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1649764351271	geckodriver	INFO	Listening on 127.0.0.1:55182
+1649764351566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55183" "-no-remote" "-profile" "C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofilexJ1FG4"
+1649764352997	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\V552110\\AppData\\Local\\Temp\\3\\rust_mozprofilexJ1FG4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55183/devtools/browser/2413f447-eea1-43e6-b2aa-4120d6e243e1
+1649764356835	Marionette	INFO	Listening on port 55186
+1649764356934	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view?wstate=%28%27%24ws%27%3ADASHBOARD%29, line 11: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649764395663	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649764427284	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649764508641	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649764540129	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649764637492	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649764669080	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 5514: unreachable code after return statement
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.jsf, line 12202: unreachable code after return statement
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649764695551	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649764776990	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649764808607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649764890018	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649764921514	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649765018774	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649765050361	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649765076728	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649765158053	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649765189596	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649765270906	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649765302463	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/data.jsf, line 1: unreachable code after return statement
+1649765383812	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/bdd/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.jsf, line 756: TypeError: C is undefined
+1649765415451	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1649765495588	Marionette	INFO	Stopped listening on port 55186
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1649765495884	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138

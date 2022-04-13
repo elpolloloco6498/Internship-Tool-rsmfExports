@@ -25,9 +25,24 @@ Tapez\
 Votre mot de passe a été enregistré par le système.
 L'outil est prêt a être utilisé.
 
-## Utilisation
+## Configuration
 Il faut maintenant configurer l'outil.
 Dans le fichier config.json vous trouverez toutes informations qu'il faut renseigner. En particulier le nom d'utilisateur RSMF et le lien de l'éxecutable Geckodriver.
+config.json\
+`
+{
+  "selenium": {
+    "geckodriver": "C:/Produits/GeckoDriver/geckodriver.exe",
+    "report": "readme.txt"
+  },
+  "app": {
+    "name": "rsmf",
+    "url": "http://lxre0017pv.unix-int.intra-int.bdf-int.local:8080/e360/mdm/entity360view/?wstate=(%27$ws%27:DASHBOARD)",
+    "version": "1.0",
+    "username": "ishaml"
+  }
+}
+`
 
 ## Lancement
 Dans un terminal dans le repertoire de l'outil, tapez:\

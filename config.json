@@ -1,6 +1,6 @@
 {
   "selenium": {
-    "geckodriver": "C:/Produits/GeckoDriver/geckodriver.exe",
+    "geckodriver": ".",
     "report": "readme.txt"
   },
   "app": {

@@ -27,9 +27,9 @@ L'outil est prêt a être utilisé.
 
 ## Configuration
 Il faut maintenant configurer l'outil.
-Dans le fichier config.json vous trouverez toutes informations qu'il faut renseigner. En particulier le nom d'utilisateur RSMF et le lien de l'éxecutable Geckodriver.
+Dans le fichier config.json vous trouverez toutes informations qu'il faut renseigner. En particulier le nom d'utilisateur RSMF et le lien de l'éxecutable Geckodriver.\
 config.json\
-`
+```
 {
   "selenium": {
     "geckodriver": "C:/Produits/GeckoDriver/geckodriver.exe",
@@ -42,7 +42,31 @@ config.json\
     "username": "ishaml"
   }
 }
-`
+```
+Le fichier de configuration ui.json permet de configurer les différents écrans de l'application RSMF. Pour chaque écran il faut expliciter les différents champs d'exportation.\
+ui.json\
+```
+{
+  "screens": {
+    "Ecran Assurance": {
+      "export-fields": [
+        "Assurance",
+        "Dénomination",
+        "Dérogation",
+        "Données CV",
+        "Obligations Déclaratives"
+      ]
+    },
+    "Ecran Agent financier": {
+      "export-fields": [
+        "Agent financier",
+        "Obligations déclaratives",
+        "Reporting SSM"
+      ]
+    }
+  }
+}
+```
 
 ## Lancement
 Dans un terminal dans le repertoire de l'outil, tapez:\
